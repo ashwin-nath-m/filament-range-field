@@ -24,8 +24,8 @@ class FilamentRangeFieldServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        Filament::registerStyles([
-            asset('vendor/filament-range-field/css/filament-forms-range-component.min.css'),
-        ]);
+        // Filament::registerStyles([
+        //     asset('vendor/filament-range-field/css/filament-forms-range-component.min.css'),
+        // ]);
     }
 }
