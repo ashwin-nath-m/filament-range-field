@@ -14,7 +14,23 @@
 You can install the package via composer:
 
 ```bash
-composer require yepsua/filament-range-field
+"repositories": [
+    {
+        "type":"package",
+        "package": {
+            "name": "ashwin-nath-m/filament-range-field",
+            "version":"v1.0.0",
+            "source": {
+                "url": "https://github.com/ashwin-nath-m/filament-range-field.git",
+                "type": "git",
+                "reference":"v1.0.0"
+            }
+        }
+    }
+],
+    "require": {
+          "ashwin-nath-m/filament-range-field": "v1.0.0"
+    }
 ```
 
 Publish the assets:
